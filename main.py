@@ -198,6 +198,7 @@ game_html = """
 """
 
 # 스트림릿에 HTML 컴포넌트 렌더링 (높이 및 너비 지정)
-components.html(game_html, height=400, scroller=False)
+# 수정 코드 (scrolling으로 변경)
+components.html(game_html, height=400, scrolling=False)
 
 st.info("💡 위 화면을 한번 클릭한 뒤 [스페이스바]를 누르면 게임이 시작됩니다!")
